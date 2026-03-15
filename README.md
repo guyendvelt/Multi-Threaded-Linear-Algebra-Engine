@@ -21,7 +21,7 @@ An advanced parallel computing engine in Java designed to solve complex linear a
 * **Build Tool**: Maven.
 * **Data Formats**: JSON-based input for computation trees and output for results.
 
-## ⚙️ System Architecture
+## System Architecture
 
 1. **Parsing Phase**: The system receives a computation tree where each node represents a mathematical operation or a matrix operand.
 2. **Scheduling Phase**: The `LinearAlgebraEngine` traverses the tree and submits independent, resolvable tasks to the `TiredExecutor`.
